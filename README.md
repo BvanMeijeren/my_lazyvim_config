@@ -6,10 +6,12 @@ Update your .config/nvim by running:
 - git clone https://github.com/BvanMeijeren/my_lazyvim_config.git
 
 
-Dependencies:
+General Dependencies:
 - NodeJS: https://nodejs.org/en/download/package-manager
 - Neovim: install through apt-get install or Brew (some newer plugins may require the newest neovim version)
 - Lazyvim: download zip and extract to .config/nvim
+
+Package specific dependencies:
 - fd:
 -   sudo apt update
 -   sudo apt install fd-find
