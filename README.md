@@ -1,9 +1,9 @@
 # my_lazyvim_config
 
 Update your .config/nvim by running:
-rm ~/.config/nvim
-cd ~/.config
-git clone https://github.com/BvanMeijeren/my_lazyvim_config.git
+- rm ~/.config/nvim
+- cd ~/.config
+- git clone https://github.com/BvanMeijeren/my_lazyvim_config.git
 
 
 Dependencies:
