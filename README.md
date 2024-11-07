@@ -3,9 +3,8 @@
 This config is of course based on Folke's Lazyvim: https://github.com/folke/lazy.nvim
 
 Update your .config/nvim by running:
-- rm ~/.config/nvim
-- cd ~/.config
 - git clone https://github.com/BvanMeijeren/my_lazyvim_config.git
+- replace ~/.config/nvim
 
 
 General Dependencies:
