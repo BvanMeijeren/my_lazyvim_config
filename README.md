@@ -1,5 +1,7 @@
 # my_lazyvim_config
 
+This config is of course based on Folke's Lazyvim: https://github.com/folke/lazy.nvim
+
 Update your .config/nvim by running:
 - rm ~/.config/nvim
 - cd ~/.config
