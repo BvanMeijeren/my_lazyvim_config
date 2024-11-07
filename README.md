@@ -12,7 +12,7 @@ General Dependencies:
 - Lazyvim: download zip and extract to .config/nvim
 
 Package specific dependencies:
-- fd:
+- fd package for venv package:
 -   sudo apt update
 -   sudo apt install fd-find
 
