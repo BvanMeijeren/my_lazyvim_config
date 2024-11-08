@@ -12,6 +12,9 @@ General Dependencies:
 - Neovim: install through apt-get install or Brew (some newer plugins may require the newest neovim version)
 - Lazyvim: download zip and extract to .config/nvim
 - luarocks
+- ripgrep
+- git
+- pyright
 
 Package specific dependencies:
 - fd package for venv package:
