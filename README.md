@@ -11,6 +11,7 @@ General Dependencies:
 - NodeJS: https://nodejs.org/en/download/package-manager
 - Neovim: install through apt-get install or Brew (some newer plugins may require the newest neovim version)
 - Lazyvim: download zip and extract to .config/nvim
+- luarocks
 
 Package specific dependencies:
 - fd package for venv package:
@@ -20,3 +21,15 @@ Package specific dependencies:
 
 Optional:
 - Brew: for newer neovim versions that apt install might not have
+
+
+luarocks commands:
+sudo apt update
+sudo apt install -y lua5.1 liblua5.1-0-dev make unzip
+wget https://luarocks.org/releases/luarocks-3.9.2.tar.gz
+tar zxpf luarocks-3.9.2.tar.gz
+cd luarocks-3.9.2
+./configure --with-lua-include=/usr/include/lua5.1
+make
+sudo make install
+luarocks --version
